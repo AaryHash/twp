@@ -32,3 +32,12 @@ h1 {
     margin: 0px auto;
     padding: 20px 40px;
 }
+
+a:link, a:visited {
+    margin: 0px auto;
+    color: red;
+}
+
+a:hover {
+    color: green;
+}

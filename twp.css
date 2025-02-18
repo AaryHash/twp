@@ -33,3 +33,20 @@ h1 {
     margin: 0px auto;
     padding: 20px 40px;
 }
+
+.wrapper > header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+
+    padding: 10px;
+}
+
+a:link, a:visited {
+    margin: 0px auto;
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
