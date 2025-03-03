@@ -48,5 +48,52 @@ a:link, a:visited {
 }
 
 a:hover {
+    margin: 0px auto;
     color: green;
 }
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: 300px;
+    text-align: center;
+} 
+
+.gallery-item p {
+    margin: .25em 0;
+    line-height: 135%;
+}
+
+.site-logo-image {
+    max-width: 200px;
+}
+
+ .sitenav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 32px;
+}
+   
+.sitenav a {
+    justify-self: center;
+    color: white;
+    background: pink;
+    text-decoration: none;
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+    padding: 0px 28px;
+ }
+
+.sitenav a:hover {
+    color: pink;
+    background: white;
+ }
