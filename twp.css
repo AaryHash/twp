@@ -2,14 +2,14 @@ body {
     margin: 0;
     padding: 0;
     color: #2a2a2a;
-    background: #cd9feb;
+    background: #d29cff;
     font-family: verdana, helvetica, arial, sans-serif;
     font-size: 20px;
     line-height: 150%;
 }
 
 h1 {
-    background: #d29cff;
+    background: #e6bcf7;
     color: #2a2a2a;
 
     font-size: 80px;
@@ -27,8 +27,17 @@ h1 {
     display: block;
 }
 
+h1 span {
+    font-size: 85%;
+    font-style: oblique;
+}
+
+h2 {
+    margin-top: 64px;
+}
+
 .wrapper {
-    background: #e6bcf7;
+    background: #edd5ff;
     max-width: 972px;
     margin: 0px auto;
     padding: 20px 40px;
@@ -44,12 +53,26 @@ h1 {
 
 a:link, a:visited {
     margin: 0px auto;
-    color: red;
+    color: green;
 }
 
 a:hover {
     margin: 0px auto;
+    color: red;
+}
+
+.page-header nav {
+    text-align: center;
+}
+   
+.page-header a {
+    color: red;
+    text-decoration: none;
+}
+
+.page-header a:hover {
     color: green;
+    text-decoration: underline;
 }
 
 .gallery-grid {
@@ -75,25 +98,64 @@ a:hover {
     max-width: 200px;
 }
 
- .sitenav {
+.sitenav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    column-gap: 32px;
+    column-gap: 24px;
 }
    
 .sitenav a {
     justify-self: center;
     color: white;
-    background: pink;
+    background: rgb(0, 177, 0);
     text-decoration: none;
-    border-left: solid white 2px;
-    border-right: solid white 2px;
-    padding: 0px 28px;
- }
+    border-left: solid #edd5ff 2px;
+    border-right: solid #edd5ff 2px;
+    padding: 8px 28px;
+}
 
 .sitenav a:hover {
-    color: pink;
+    color: rgb(0, 177, 0);
     background: white;
- }
+}
+
+.sitenav a:first-child {
+    padding: 4px;
+    background: #edd5ff;
+}
+
+i {
+    color: dodgerblue;
+}
+
+.legend-key {
+    font-size: 75%;
+}
+
+.legend-key i {
+    margin-left: 18px;
+}
+
+.legend-key i:first-child {
+    margin-left: 0px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    border: 1px solid black;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

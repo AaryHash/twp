@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="281.99411mm"
+   height="77.545486mm"
+   viewBox="0 0 281.99411 77.545486"
    version="1.1"
    id="svg28"
    sodipodi:docname="site-logo.svg"
@@ -31,8 +31,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.64667527"
-     inkscape:cx="322.86841"
-     inkscape:cy="388.17493"
+     inkscape:cx="297.10643"
+     inkscape:cy="152.25104"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -41,7 +41,12 @@
      inkscape:window-height="1051"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     lock-margins="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata25">
     <rdf:RDF>
@@ -57,7 +62,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-6.816191,-62.421528)">
     <g
        id="g111"
        transform="matrix(0.51289609,0,0,0.51289609,-10.5298,47.403489)">
@@ -100,7 +106,7 @@
     <text
        xml:space="preserve"
        id="text97"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect99);" />
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect99);fill:#000000;fill-opacity:1;stroke:none;" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -111,6 +117,6 @@
          id="tspan103"
          x="175.93193"
          y="166.93077"
-         style="stroke-width:0.264583"></tspan></text>
+         style="stroke-width:0.264583" /></text>
   </g>
 </svg>
